@@ -1,0 +1,22 @@
+{
+  "name": "subgrupo14/athletic-core-backend",
+  "description": "API REST de ATHLETIC CORE en PHP",
+  "type": "project",
+  "license": "proprietary",
+  "require": {
+    "php": ">=8.1",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^10.5"
+  },
+  "autoload": {
+    "psr-4": { "AthleticCore\\": "src/" }
+  },
+  "autoload-dev": {
+    "psr-4": { "AthleticCore\\Tests\\": "tests/" }
+  },
+  "scripts": {
+    "test": "phpunit"
+  }
+}

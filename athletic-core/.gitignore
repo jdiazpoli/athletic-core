@@ -1,24 +1,12 @@
-# ---- Angular / Node (frontend) ----
-frontend/node_modules/
-frontend/dist/
-frontend/.angular/
-npm-debug.log*
-
-# ---- Java / Spring Boot (backend) ----
-backend/target/
-backend/build/
-*.class
-*.jar
-!backend/.mvn/wrapper/maven-wrapper.jar
-backend/src/main/resources/application-local.properties
+# ---- PHP (backend) ----
+backend/vendor/
+backend/config/config.local.php
+backend/.phpunit.cache/
+.phpunit.result.cache
 
 # ---- IDEs ----
 .idea/
-*.iml
 .vscode/
-.project
-.classpath
-.settings/
 
 # ---- Sistema / secretos ----
 .DS_Store
